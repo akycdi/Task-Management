@@ -12,8 +12,8 @@ import lombok.Data;
 
 import java.time.LocalDate;
 
-import org.apache.tomcat.util.http.parser.Priority;
 
+import com.airtribe.task.enums.TaskPriority;
 import com.airtribe.task.enums.TaskStatus;
 
 @Entity
@@ -30,7 +30,7 @@ public class Task {
 
     private TaskStatus status;
 
-    private Priority priority;
+    private TaskPriority priority;
 
     private LocalDate dueDate;
 

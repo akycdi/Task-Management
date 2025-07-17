@@ -1,5 +1,5 @@
 package com.airtribe.task.enums;
 
-public enum Priority {
+public enum TaskPriority  {
     LOW, MEDIUM, HIGH
 }
